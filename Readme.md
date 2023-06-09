@@ -11,7 +11,7 @@ This project is a web application built using Python Django as the backend and R
 
 clone this repository using
 ```
-git clone
+git clone https://github.com/Taha-Zolfi/mobogheymat.git
 ```
 
 then open your terminal and instal python packages by using
