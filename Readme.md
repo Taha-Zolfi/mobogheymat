@@ -5,3 +5,35 @@ This project is a web application built using Python Django as the backend and R
 
 
 ![hey](https://i.postimg.cc/bYWg8Qgf/image.png)
+
+
+#how to use 
+
+clone this repository using
+```
+git clone
+```
+
+then open your terminal and instal python packages by using
+```
+pip install django requests bs4
+```
+then
+```
+cd backend
+```
+```
+python manage.py runserver
+```
+so lets go for the frontend by opening another terminal and
+```
+cd frontend
+```
+```
+npm i framer-motion
+```
+```
+npm run
+```
+
+enjoy!
