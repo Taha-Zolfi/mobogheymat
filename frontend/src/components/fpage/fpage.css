@@ -1,0 +1,43 @@
+.fpage {
+    background:radial-gradient(circle at 0% 0%, #6E243F 0%, #000000 50%);
+    height: 85vh;
+}
+.fpage img {
+    width: 20vw;
+    padding: 1rem;
+}
+.texts {
+    color: white;
+    text-align: end;
+    padding: 3rem;
+}
+.texts h1{
+    background: linear-gradient(to right, #f86f64,#fd5392);
+    background-size: 50%;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    font-size: 5vw;
+}
+.texts p a {
+    background: linear-gradient(to right, #f86f64,#fd5392);
+    background-size: 100% auto;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+.texts p {
+    font-weight: 600;
+    font-size: 1.8vw;
+    padding-top: 2rem;
+}
+
+
+@media (orientation : portrait) {
+    .fpage img { width: 20vh; }
+    .fpage { height: 45vh; }
+    .texts {padding-right: 1rem;}
+    .texts h1 { font-size: 6vh; background-size: 100%;}
+    .texts p {font-size: 1.8vh;}
+
+}

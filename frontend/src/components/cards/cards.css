@@ -1,0 +1,12 @@
+.cards {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2rem;
+
+}
+.con{display: flex;justify-content: center;background-color: #000;padding-bottom: 3rem;}
+
+@media (orientation : portrait) {
+    .cards{ grid-template-columns: auto auto;}
+}

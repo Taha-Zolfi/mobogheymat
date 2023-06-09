@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: iransansx;
+}
+body {
+    background-color: #000;
+}
+
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 0.5rem;
+    border-radius: 10px;
+
+ }
+ ::-webkit-scrollbar-thumb{
+    background-image: linear-gradient( transparent,#fc5a89,#fc5a89,#fc5a89,#fc5a89);
+    border-radius: 10px;
+ }

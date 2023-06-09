@@ -1,0 +1,55 @@
+.card {
+    background-color: #424242;
+    text-align: center;
+    width: fit-content;
+    border-radius: 39px;
+}
+
+.card img{width: 20vw;}
+.card h2 {color : #fff; font-size: 1.7vw;font-weight: 900;margin-top: 0vw;}
+.card p {color: #92e000;font-size: 1.4vw;font-weight: 700;margin-top: 2.3vw;}
+.card a{ color:#fd5392; text-decoration: none;font-size: larger;font-weight: 600;}
+.link { padding: 0.5rem;}
+
+.notcard {
+    background-color: #777777;
+    text-align: center;
+    width: fit-content;
+    border-radius: 39px;
+}
+.notcard h2{
+    font-size: 1.7vw;font-weight: 900;margin-top: 0vw;
+    animation-name: notloadedh2;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+}
+.notcard img{
+    width: 20vw;
+    filter:brightness(2) grayscale(1) ;
+    animation-name: notloaded;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes notloaded {
+    0% {filter:brightness(1) grayscale(1) ;}
+    50% {filter:brightness(2) grayscale(1) ;}
+    100% {filter:brightness(1) grayscale(1) ;}
+}
+
+
+@keyframes notloadedh2 {
+    0% { transform: translateX(5px); }
+    50% { transform: translateX(-10px); }
+    100% { transform: translateX(5px); }
+}
+
+
+
+@media (orientation : portrait) {
+    .notcard img, .card img {width:20vh}
+    .notcard h2, .card h2 {font-size: 1.7vh;}
+    .card p {font-size: 1.5vh;}
+    .notcard ,.card {border-radius: 23px;}
+
+}
