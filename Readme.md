@@ -7,7 +7,7 @@ This project is a web application built using Python Django as the backend and R
 ![hey](https://i.postimg.cc/bYWg8Qgf/image.png)
 
 
-#how to use 
+# how to use 
 
 clone this repository using
 ```
