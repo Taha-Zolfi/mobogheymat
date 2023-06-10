@@ -53,15 +53,7 @@ transition={{ duration: 0.5, delay: id * 0.1 }}
 <p>تومان {item.price}</p>
 
 <a href={item.link}>
-<motion.div
-className='link'
-whileHover={{
-    scale: 1.2,
-    transition: { duration: 0.3 },
-  }}
-  whileTap={{ scale: 0.9 }}>
-    خـــریــــد
-</motion.div>
+<div className='link'>خـــریــــد</div>
 </a>
 </motion.div>
 );

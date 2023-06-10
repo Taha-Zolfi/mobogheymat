@@ -7,9 +7,11 @@
 
 .card img{width: 20vw;}
 .card h2 {color : #fff; font-size: 1.7vw;font-weight: 900;margin-top: 0vw;}
-.card p {color: #92e000;font-size: 1.4vw;font-weight: 700;margin-top: 2.3vw;}
+.card p {color: #92e000;font-size: 1.4vw;font-weight: 700;margin-top: 1vw;margin-bottom: 0.5vw;}
 .card a{ color:#fd5392; text-decoration: none;font-size: larger;font-weight: 600;}
-.link { padding: 0.5rem;}
+.link { padding: 0.5rem;border-top: 0.15rem solid #fd5392;background-color: #fff;border-bottom-left-radius:39px;border-bottom-right-radius:39px;}
+
+.link:hover {background-color: #fd5392;color: #fff;transition-duration: 330ms;}
 
 .notcard {
     background-color: #777777;
@@ -51,5 +53,6 @@
     .notcard h2, .card h2 {font-size: 1.7vh;}
     .card p {font-size: 1.5vh;}
     .notcard ,.card {border-radius: 23px;}
-
+    .link {border-bottom-left-radius:23px;border-bottom-right-radius:23px;}
+    
 }
