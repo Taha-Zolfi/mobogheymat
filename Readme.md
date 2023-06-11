@@ -30,7 +30,7 @@ so lets go for the frontend by opening another terminal and
 cd frontend
 ```
 ```
-npm i framer-motion
+npm install
 ```
 ```
 npm run
