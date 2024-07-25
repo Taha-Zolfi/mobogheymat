@@ -16,7 +16,7 @@ git clone https://github.com/Taha-Zolfi/mobogheymat.git
 
 then open your terminal and instal python packages by using
 ```
-pip install django requests bs4 corsheaders
+pip install django requests bs4 django-cors-headers
 ```
 then
 ```
